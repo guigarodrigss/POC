@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de Login</title>
+    <link rel="stylesheet" href="style/cadastro.css">
+</head>
+<body>
+    <div id="retangulo">
+        <a href="index.html">
+            <img src="imgSenac/logo_senac_branco.png" alt="Senac Logo" id="logoBranca">
+        </a>
+
+        <div id="container">
+            <div id="retangulo">
+                <a href="index.html">
+                    <img src="imgSenac/logo_senac_branco.png" alt="Senac Logo" id="logoBranca">
+                </a>
+    
+                <div id="container">
+                    <div class="dropdown">
+                    <button class="dropbtn" class="menu">
+                        <div class="linha"></div>
+                        <div class="linha"></div>
+                        <div class="linha"></div>
+                    </button>
+                    <div class="dropdown-content">
+                        <a class='login' href="logingeral.html"><i class="fas fa-user-check"></i> Fazer login</a>
+                        <a href="index.html"><i class="fas fa-home"></i> Tela Inicial</a>
+                        <a href="setores.html"><i class="fas fa-cut"></i> Setores</a>
+                        <a href="#"><i class="far fa-calendar-check"></i> Evento</a>
+                        <a href="sobrenois.html"><i class="fas fa-users"></i> Sobre Nós</a>
+                        <a href="ajuda.html"><i class="fas fa-question-circle"></i> Ajuda</a>
+                    </div>
+                    </div>
+
+        <!--Caixa de pesquisa de conteúdo-->
+        <div id="divBusca">
+            <input type="search" id="txtBusca" placeholder="&nbsp;&nbsp;Pesquisar..."/>
+            <img src="imgIcones/lupa.png" id="icnBusca" alt="Pesquisa">
+        </div>
+
+        <!--Botão de acesso a conta-->
+            <a href="logingeral.html">
+                <button role="button" class="btnAcesso">
+                    ACESSO
+                </button>
+            </a>
+
+        <!--Botão de filtro-->
+        <div id="divFiltro">
+            <form>
+                <button type="button" id="btnFiltro" id="txtFiltro">FILTRAR</button>
+                <button type="button" class="btnFiltroEx"></button>
+            </form>
+        </div>
+    </div>
+
+    <!--Imagem do login-->
+    <img src="imgIcones/imglogin.PNG" alt="Ilustração" id="imgLogin">
+
+    <!--Informações do login-->
+    <div id="divLogin">
+        <h2>Cadastrar Aluno</h2>
+
+        <!--Nome-->
+        <div>
+            <input type="text" id="txtNome" placeholder="Nome"/>
+            <hr size="2" color="black" width="300">
+        </div>
+
+        <!--Sobrenome-->
+        <div>
+            <input type="text" id="txtSobrenome" placeholder="Sobrenome"/>
+            <hr size="2" color="black" width="300">
+        </div>
+
+        <!--Email-->
+        <div>
+            <input type="text" id="txtEmail" placeholder="Email"/>
+            <hr size="2" color="black" width="300">
+        </div>
+
+        <!--Nº da matrícula-->
+        <div>
+            <input type="text" id="txtMatri" placeholder="N° da matrícula"/>
+            <hr size="2" color="black" width="300">
+        </div>
+
+        <!--curso-->
+        <div>
+            <input type="text" id="txtCurso" placeholder="Curso"/>
+            <hr size="2" color="black" width="300">
+        </div>
+
+        <!--Digite uma senha-->
+        <div>
+            <input type="password" id="txtSenha" placeholder="Digite uma senha"/>
+            <hr size="2" color="black" width="300">
+        </div>
+
+        <!--Repite a senha-->
+        <div>
+            <input type="password" id="txtSenha" placeholder="Repita a senha"/>
+            <hr size="2" color="black" width="300">
+        </div>
+
+        <!--Botão do aluno-->
+        <div>
+            <form>
+                <button type="button" id="btnAlunoProf"></button>
+            </form>
+            <div id="txtAlunoProf">Aluno</div>
+        </div>
+
+        <!--Botão do professor-->
+        <div>
+            <form>
+                <a href="cadProf.html">
+                    <button type="button" id="btnAlunoProf"></button>
+                </a>
+                
+            </form>
+            <div id="txtAlunoProf">Professor</div>
+        </div>
+
+        <!--Botão do ADM-->
+        <div>
+            <form>
+                <button type="button" id="btnAdmAlu"></button>
+            </form>
+            <div id="txtAdmAlu">Administrador</div>
+        </div>
+
+        <!--Botão de entrar-->
+        <button id="btnEntrarAlu">ENTRAR</button>
+        <div class="auxiliarFinalAlu">
+            Já possuo cadastro, <a href="logingeral.html">fazer login</a>
+        </div>
+    </div>
+
+    <!--Footer-->
+    <div class="footer1">
+        <hr size="2" color="black" width="800">
+        <div>
+            <footer>
+                R. do Pombal, 57 - Santo Amaro, Recife - PE, 50100-170<br>(81)99999-9999
+            </footer>
+            <img src="imgIcones/local.png" alt="Localização" id="localIcon">
+            <img src="imgIcones/whats.png" alt="Whatsapp" id="whatsIcon">
+            <img src="imgSenac/senaclogo2.png" alt="Senac Logo 2" id="logo2">
+        </div>
+    </div>
+</body>
+</html>

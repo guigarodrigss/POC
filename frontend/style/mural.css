@@ -1,0 +1,169 @@
+#retangulo {
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background: black;
+}
+.fa-home{
+    width: 80px;
+    height: 80px;
+    position: relative;
+    left: -3px;
+    top: 10%;
+}
+#logoBranca {
+    width: 80px;
+    height: 50px;
+    position: absolute;
+    left: 200px;
+    top: 30px;
+}
+#icnBusca {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    left: 60px;
+    top: 5.5px;
+}
+#divBusca {
+    background-color: white;
+    border: solid 5px;
+    border-radius: 156px;
+    width: 340px;
+    height: 31px;
+    position: absolute;
+    left: 370px;
+    top: 38px;
+}
+#divFiltro {
+    background-color: white;
+    border: solid 5px;
+    border-radius: 156px;
+
+}
+#txtBusca {
+    float:left;
+    background-color: transparent;
+    border-radius: 156px;
+    padding-left: 5px;
+    font-style: times;
+    font-size: 18px;
+    border: none;
+    width: 340px;
+    height: 31px;
+    position: relative;
+    left: 25px;
+    top: 0px;
+}
+#btnAcesso {
+    border: solid 5px;
+    border-radius: 156px;
+    box-sizing: border-box;
+    background-color: white;
+    font-family: arial black;
+    width: 159px;
+    height: 41.5px;
+    position: absolute;
+    left: 735px;
+    top: 37px;
+}
+#btnFiltro {
+    border: solid 5px;
+    border-radius: 156px;
+    box-sizing: border-box;
+    background-color: white;
+    font-family: arial black;
+    width: 159px;
+    height: 41.5px;
+    position: absolute;
+    left: 919px;
+    top: 37px;
+}
+.divPostMu{
+    width: 300px;
+    height: 38px;
+    font-size: 35px;
+    font-family: arial;
+    text-align: center;
+    color: black;
+    position: absolute;
+    left: 41%;
+    top: 120px;
+}
+.retMurais{
+    width: 230%;
+    height: 170px;
+    border: solid 4px;
+    border-radius: 10px;
+    border-color: black;
+    position: absolute;
+    left: -400px;
+    top: 100px;
+    background: transparent;
+}
+.imgPessoa{
+    border-radius: 100%;
+    width: 80px;
+    height: 80px;
+    position: relative;
+    left: -3px;
+    top: 10%;
+}
+.quadMurais{
+    width: 25%;
+    height: 170px;
+    border-radius: 5px;
+    border-color: black;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background: black;
+}
+#nomePessoa{
+    position: relative;
+    width: 300px;
+    height: 23px;
+    left: -65px;
+    top: 15%;
+    font-style: normal;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+
+
+.footer1 {
+    display: inline;
+    color: rgba(0, 0, 0, 0.51);
+    font-size: 12px;
+    position: absolute;
+    left: 300px;
+    top: 850px;
+}
+#logo2{
+    width: 50px;
+    height: 30px;
+    display: inline;
+    position: absolute;
+    left: 752px;
+    top: 15px;
+}
+#localIcon{
+    width: 15px;
+    height: 15px;
+    color: rgba(0, 0, 0, 0.10);
+    display: inline;
+    position: absolute;
+    left: 285px;
+    top: 13px;
+}
+#whatsIcon{
+    width: 17px;
+    height: 17px;
+    display: inline;
+    position: absolute;
+    left: 82px;
+    top: 27px;
+}
